@@ -1,0 +1,940 @@
+{
+    "areas": [
+        {
+            "id": 1,
+            "nome": "Ambiental",
+            "temas": [
+                {
+                    "id": 1,
+                    "nome": "Mudanças climáticas",
+                    "criterios": [
+                        {
+                            "id": 1,
+                            "nome": "Mitigação de emissões de gases de efeito estufa (GEE)  ",
+                            "itens": [
+                                {
+                                    "id": 1,
+                                    "descricao": "Estabelecer um sistema para mensurar e reportar níveis de emissão de GEE."
+                                },
+                                {
+                                    "id": 2,
+                                    "descricao": "Realizar o inventário de suas emissões de gases do efeito estuda (GEE)."
+                                },
+                                {
+                                    "id": 3,
+                                    "descricao": "Elaborar plano de mitigação, contendo metas de redução, remoção e/ou compensação de emissões. "
+                                },
+                                {
+                                    "id": 4,
+                                    "descricao": "Aderir a plataformas, campanhas e iniciativas para trazer padrão e transparência ao compromisso climático."
+                                },
+                                {
+                                    "id": 5,
+                                    "descricao": "Dar publicidade ao invetário de emissões de GEE, ao plano de mitigação, bem como aos compromissos alcançados."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "nome": "Adaptação às mudanças climáticas",
+                            "itens": [
+                                {
+                                    "id": 6,
+                                    "descricao": "Constituir um grupo de trabalho multidisciplinar para coordenação e elaboração do plano de adaptação."
+                                },
+                                {
+                                    "id": 7,
+                                    "descricao": "Levantar as informações disponíveis sobre os possíveis cenários de ameaça de mudanças climáticas para a organização, os riscos de impactos a serem enfrentados e as potenciais oportunidades a serem exploradas. "
+                                },
+                                {
+                                    "id": 8,
+                                    "descricao": "Elaborar um plano de adaptação para a organização que reúna informações sobre medidas de adaptação identificadas, ordenadas de acordo com as prioridades de implementação."
+                                },
+                                {
+                                    "id": 9,
+                                    "descricao": "Realizar ações de engajamento de atores internos e externos à organização."
+                                },
+                                {
+                                    "id": 10,
+                                    "descricao": "Comunicar o plano de adaptação e seus resultados para o público interno e as partes interessadas É feitos."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "nome": "Eficiência energética",
+                            "itens": [
+                                {
+                                    "id": 11,
+                                    "descricao": "Diagnóstico e estabelecimento de metas de desempenho energético com revisões periódicás para reavaliar."
+                                },
+                                {
+                                    "id": 12,
+                                    "descricao": "Uso de fontes de energia renovável (placas solares, geração distribuída, etc)."
+                                },
+                                {
+                                    "id": 13,
+                                    "descricao": "Priorização de aquisição de produtos com melhor eficiência energética (Selo Procel, selo Conpet, Categoria A do Programa Brasileiro de Eitquetagem)."
+                                },
+                                {
+                                    "id": 14,
+                                    "descricao": "Substituir lâmpadas incandescentes, fluorescentes e de descarga por lâmpadas de LED, que são as mais eficientes e possuem longa durabilidade."
+                                },
+                                {
+                                    "id": 15,
+                                    "descricao": "Adequar-se as normas da ISSO 50001 (gestão de energia)."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "nome": "Recursos hídricos",
+                    "criterios": [
+                        {
+                            "id": 4,
+                            "nome": "Uso da água",
+                            "itens": [
+                                {
+                                    "id": 16,
+                                    "descricao": "Mapear a demanda de água da organização, identificando como e quanto de água é consumida e/ou utilizada nos processos e nas atividades (“mapa da água”, “fluxo da água” ou balanço hídrico da organização)."
+                                },
+                                {
+                                    "id": 17,
+                                    "descricao": "Avaliar o desempenho operacional e propor metas adequadas e exequíveis, e indicadores relacionados ao uso racional da água, determinando os planos de ação para o alcance dessas metas."
+                                },
+                                {
+                                    "id": 18,
+                                    "descricao": "Implantar projetos de reúso de água (sem tratamento ou após tratamento) ou projeto de aproveitamento de água da chuva."
+                                },
+                                {
+                                    "id": 19,
+                                    "descricao": "Avançar na gestão sustentável da água e no processo de melhoria, envolvendo outros atores e partes interessadas externas, como, por exemplo, apoio às comunidades no acesso à água e melhoria das condições sanitárias."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "nome": "Gestão de efluentes",
+                            "itens": [
+                                {
+                                    "id": 20,
+                                    "descricao": "Operar de acordo com a legislação ambiental aplicável (no âmbito nacional, estadual e municipal), seguindo os padrões de lançamento e destinação de acordo com o tipo de efluente e classificação do corpo hídrico ou receptor."
+                                },
+                                {
+                                    "id": 21,
+                                    "descricao": "Elaborar plano de redução do volume de efluentes gerados, com metas e ações a serem implementadas."
+                                },
+                                {
+                                    "id": 22,
+                                    "descricao": "Avaliar adoção de soluções baseadas na natureza para o tratamento de efluentes em conjunto com as práticas tradicionais (por exemplo, uso de biotecnologias, uso de wetlands etc)."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "nome": "Biodiversidade e serviços ecossistêmicos",
+                    "criterios": [
+                        {
+                            "id": 6,
+                            "nome": "Conservação e uso sustentável da biodiversidade",
+                            "itens": [
+                                {
+                                    "id": 23,
+                                    "descricao": "Identificar e monitorar possíveis impactos negativos à biodiversidade e aos serviços ecossistêmicos locais."
+                                },
+                                {
+                                    "id": 24,
+                                    "descricao": "Identificar e implantar ações que possam gerar impactos positivos na região visando a conservação da biodiversidade e manutenção/recuperação de serviços ecossistêmicos."
+                                },
+                                {
+                                    "id": 25,
+                                    "descricao": "Implantação de medidas e procedimentos padronizados para identificar, monitorar e mitigar os possíveis impactos negativos à biodiversidade e aos serviços ecossistêmicos locais."
+                                },
+                                {
+                                    "id": 26,
+                                    "descricao": "Promover a conservação da biodiversidade e dos serviços ecossistêmicos por meio do desenvolvimento ações de fomento de projetos de inovação tecnológica, de reflorestamento e/ou conservação de áreas protegidas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "nome": "Uso sustentável do solo",
+                            "itens": [
+                                {
+                                    "id": 27,
+                                    "descricao": "Participar de arranjos locais/regionais para evitar degradação e desmatamento, e ampliar a potencialização da capacidade de regeneração natural, formação de corredores ecológicos e recuperação de nascentes."
+                                },
+                                {
+                                    "id": 28,
+                                    "descricao": "Priorizar o Manejo Integrado de Pragas (MIP) ou os fornecedores que priorizem o MIP, ou seja, que usem táticas de controle que levem em conta o interesse e/ou o impacto sobre os produtores, a sociedade e o ambiente, utilizando agrotóxicos adequados, com menor toxicidade, ou outras práticas apropriadas."
+                                },
+                                {
+                                    "id": 29,
+                                    "descricao": "Mapear a importância do uso do solo para os negócios da organização, abrangendo as próprias instalações e a cadeia de valor associada (fornecedores e clientes)."
+                                },
+                                {
+                                    "id": 30,
+                                    "descricao": "Controlar e monitorar, ou exigir de seus fornecedores, o uso adequado de agrotóxicos, fertilizantes, inoculantes e afins, e priorizar fornecedores com práticas sustentáveis."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "nome": "Economia Circular",
+                    "criterios": [
+                        {
+                            "id": 8,
+                            "nome": "Economia circular",
+                            "itens": [
+                                {
+                                    "id": 31,
+                                    "descricao": "Planejar soluções em economia circular, envolvendo e consultando as partes interessadas, considerando a experiência do usuário."
+                                },
+                                {
+                                    "id": 32,
+                                    "descricao": "Planejar e desenvolver produtos que contemplem diferentes formas de recirculação dos recursos, em uma perspectiva de ciclo de vida, e buscar menor dependência de matérias-primas virgens."
+                                },
+                                {
+                                    "id": 33,
+                                    "descricao": "Investir em otimização de processos, incluindo melhor aproveitamento dos materiais e recursos em geral, com redução dos desperdícios (incluindo água e energia)."
+                                },
+                                {
+                                    "id": 34,
+                                    "descricao": "Desenvolver ações junto a trabalhadores, clientes e parceiros, para promover a conscientização sobre o melhor uso dos recursos."
+                                },
+                                {
+                                    "id": 35,
+                                    "descricao": "Priorizar o uso de materiais renováveis, restaurados, reciclados, recondicionados, remanufaturados ou materiais não contaminados."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "nome": "Gestão de resíduos",
+                            "itens": [
+                                {
+                                    "id": 36,
+                                    "descricao": "Elaborar, implementar e revisar um sistema de gestão de resíduos, com procedimentos e instruções operacionais para os resíduos sólidos, como o Plano de Gerenciamento de Resíduos Sólidos (PGRS)."
+                                },
+                                {
+                                    "id": 37,
+                                    "descricao": "Avaliar a adoção de práticas de logística reversa."
+                                },
+                                {
+                                    "id": 38,
+                                    "descricao": "Implantar sistema de gestão de resíduos, com procedimentos e instruções operacionais para os resíduos sólidos."
+                                },
+                                {
+                                    "id": 39,
+                                    "descricao": "Firmar contratos com organizaçãos/instituições de reciclagem para recolhimento dos resíduos especiais (orgânicos e inorgânicos)."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "nome": "Gestão ambiental e prevenção da poluição",
+                    "criterios": [
+                        {
+                            "id": 10,
+                            "nome": "Gestão Ambiental",
+                            "itens": [
+                                {
+                                    "id": 40,
+                                    "descricao": "Enteder o contexto no qual a organização opera, analisando as questões internas e externas É feitos que possam afetar ou ser afetadas pela organização, considerando as características socioambientais onde está inserida."
+                                },
+                                {
+                                    "id": 41,
+                                    "descricao": "Identificar aspectos das atividades, produtos e serviços da organização que podem resultar em impactos ambientais significativos."
+                                },
+                                {
+                                    "id": 42,
+                                    "descricao": "Considerar os riscos e oportunidades da organização que precisam ser abordados em relação aos seus aspectos ambientais, requisitos legais e outros requisitos."
+                                },
+                                {
+                                    "id": 43,
+                                    "descricao": "Desenvolver tecnologias para redução da geração e/ou aproveitamento dos seus resíduos(por exemplo, tecnologias para transformação de resíduos em novos produtos)."
+                                },
+                                {
+                                    "id": 44,
+                                    "descricao": "Impulsionar o segmento de atuação da organização para melhorar o nível de gestão ambiental de todo o setor, envolvendo organizações, órgãos governamentais, instituições de pesquisas e sociedade civil neste objetivo, quando aplicável."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 11,
+                            "nome": "Qualidade do ar (emissão de poluentes)",
+                            "itens": [
+                                {
+                                    "id": 45,
+                                    "descricao": "Planejar a localização geográfica do seu empreendimento, avaliando as emissões potenciais e os receptores, considerando o nível de saturação da bacia aérea e o zoneamento dos planos diretores."
+                                },
+                                {
+                                    "id": 46,
+                                    "descricao": "Utilizar equipamentos capazes de controlar as emissões em veículos e unidades fabris como filtros, catalisadores e melhores tecnologias práticas disponíveis para remoção de gases e particulados."
+                                },
+                                {
+                                    "id": 47,
+                                    "descricao": "Substituir combustíveis, matérias-primas e reagentes de qualquer tipo de equipamento ou atividade em processos produtivos por outros que sejam ou emitam menos poluentes."
+                                },
+                                {
+                                    "id": 48,
+                                    "descricao": "Realizar monitoramento das emissões e manter registros históricos, garantindo o atendimento aos padrões de emissões de poluentes atmosféricos."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 12,
+                            "nome": "Prevenção da poluição sonora (ruídos e vibrações)",
+                            "itens": [
+                                {
+                                    "id": 49,
+                                    "descricao": "Planejar e ordenar o empreendimento em áreas industriais e comerciais, com prevenção, controle e mitigação da poluição sonora."
+                                },
+                                {
+                                    "id": 50,
+                                    "descricao": "Desenvolver e utilizar tecnologias relacionados à atenuação de ruídos e vibrações, priorizando o uso de equipamentos, máquinas e processos ou atividades que gerem menores impactos."
+                                },
+                                {
+                                    "id": 51,
+                                    "descricao": "Estabelecer canais de diálogo com possíveis afetados pelo ruído ambiental emitido pelas atividades da organização visando adoção de eventuais medidas necessárias."
+                                },
+                                {
+                                    "id": 52,
+                                    "descricao": "Estabelecer planos de ação e prevenção de gestão de riscos baseados no diagnóstico obtido das pesquisas sociais (socioacústicas) e avaliações quantitativas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 13,
+                            "nome": "Gerenciamento de áreas contaminadas",
+                            "itens": [
+                                {
+                                    "id": 53,
+                                    "descricao": "Planejar a localização geográfica do seu empreendimento, avaliando o potencial de contaminação do solo e da água subterrânea, bem como os bens a serem protegidos e o zoneamento dos planos diretores."
+                                },
+                                {
+                                    "id": 54,
+                                    "descricao": "Dar preferência a processos, equipamentos e matérias-primas com menores riscos de contaminação, de potencial de poluição e de impacto ao meio ambiente."
+                                },
+                                {
+                                    "id": 55,
+                                    "descricao": "Operar e monitorar os processos de produção ou construção, de forma a prever possíveis riscos ao meio ambiente, evitando-os. "
+                                },
+                                {
+                                    "id": 56,
+                                    "descricao": "Manter o registro histórico do uso de insumos, matérias-primas e geração de resíduos, bem como de ocorrências de emergências e acidentes ambientais, como vazamentos, derramamentos etc."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "nome": "Produtos perigosos",
+                            "itens": [
+                                {
+                                    "id": 57,
+                                    "descricao": "Formalizar um plano de gestão que abranja todas as ações dos processos e etapas que envolvam produtos perigosos (como fabricação, importação, comercialização, uso, manuseio, sinalização, armazenamento, estocagem e transporte)"
+                                },
+                                {
+                                    "id": 58,
+                                    "descricao": "Realizar a análise da Ficha de Informação de Segurança de Produto Químico (FISPQ)."
+                                },
+                                {
+                                    "id": 59,
+                                    "descricao": "Fazer a etiquetagem, rotulagem e sinalização desses produtos, assim como seus locais de estocagem, armazenamento e durante a etapa de transporte."
+                                },
+                                {
+                                    "id": 60,
+                                    "descricao": "Possuir plano atualizado de atendimento e respostas à emergências e processos de evacuação, assim como uma equipe de Resposta à Emergência capacitada para conter possíveis impactos ambientais e danos à segurança e saúde do trabalhador."
+                                },
+                                {
+                                    "id": 61,
+                                    "descricao": "Realizar inspeções sistemáticas para assegurar um uso seguro de produtos químicos perigosos."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "Social",
+            "temas": [
+                {
+                    "id": 6,
+                    "nome": "Diálogo social e desenvolvimento territorial",
+                    "criterios": [
+                        {
+                            "id": 15,
+                            "nome": "Investimento social privado (ISP)",
+                            "itens": [
+                                {
+                                    "id": 62,
+                                    "descricao": "Criação de uma cultura de gestão que seja favorável ao engajamento das partes interessadas, mapeamendo e selecionando aquelas É feitos para a organização e o entendimento de suas expectativas, necessidades e temas de interesse, como o objetivo de realização de ações de ISP."
+                                },
+                                {
+                                    "id": 63,
+                                    "descricao": "Implementação de um política de ISP para definir diretrizes para aplicação de recursos financeiros, humanos e materiais no sentido de produzir um impacto positivo"
+                                },
+                                {
+                                    "id": 64,
+                                    "descricao": "Apoio na construção de capacidades, apoio técnico e institucional a organizações da sociedade civil local por meio de voluntariado corporativo e/ou doação de serviços técnicos especializados."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "nome": "Diálogo e engajamento das partes interessadas",
+                            "itens": [
+                                {
+                                    "id": 65,
+                                    "descricao": "Elaboração de um plano de comunicação interno (trabalhadores) e externo (partes interessadas) para dar transparências as decisões e ações da organização."
+                                },
+                                {
+                                    "id": 66,
+                                    "descricao": "Elaboração e aplicação de processos formais para identificar as partes interessadas e verificar a legitimidade do grupo ou do indivíduo que fala em nome de uma parte interessada."
+                                },
+                                {
+                                    "id": 67,
+                                    "descricao": "Realizar pesquisas e campanhas para conhecer e monitorar sua relação com partes interessadas."
+                                },
+                                {
+                                    "id": 68,
+                                    "descricao": "Realização de engajamento social por meio de reuniões informais ou formais (conferências, workshops, audiências públicas, mesas redondas, comitês consultivos, procedimentos regulares de informação e consulta, entre outros)."
+                                },
+                                {
+                                    "id": 69,
+                                    "descricao": "Estímulo da relação dos trabalhadores da organização com a comunidade por meio de ações e campanhas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 17,
+                            "nome": "Impacto Social",
+                            "itens": [
+                                {
+                                    "id": 70,
+                                    "descricao": "Envolvimento com a comunidade por meio da participação em fóruns promovidos por representantes locais como associação de moradores ou mesmo a promoção destes fóruns."
+                                },
+                                {
+                                    "id": 71,
+                                    "descricao": "Identificação de formadores de opinião, partes interessadas, agentes públicos, sociedade civil para que todas as demandas tenham representação."
+                                },
+                                {
+                                    "id": 72,
+                                    "descricao": "Criação de um plano de ação, com o objetivo de mitigação de impactos negativos e potencialização de impactos positivos na relação entre organização e comunidade."
+                                },
+                                {
+                                    "id": 73,
+                                    "descricao": "Priorização de aquisição de produtos ou prestação de serviços de fornecedores locais."
+                                },
+                                {
+                                    "id": 74,
+                                    "descricao": "Capacitação da população local para que possam ser ou vir a ser potenciais parceiros, fornecedores, consumidores ou trabalhadores."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "nome": "Direitos Humanos",
+                    "criterios": [
+                        {
+                            "id": 18,
+                            "nome": "Respeito aos direitos humanos",
+                            "itens": [
+                                {
+                                    "id": 75,
+                                    "descricao": "Implantação de uma política de direitos humanos que assegure o comprometimento da Alta Direção da organização com os direitos humanos."
+                                },
+                                {
+                                    "id": 76,
+                                    "descricao": "Levantamento dos pontos críticos do negócio que possam trazer impactos positivos e negativos para a política de direitos humanos da organização."
+                                },
+                                {
+                                    "id": 77,
+                                    "descricao": "Implementação de práticas de monitoramento e prevenção a violações dos direitos humanos, inclusive na cadeia de fornecimento."
+                                },
+                                {
+                                    "id": 78,
+                                    "descricao": "Realização de due diligence como padrão em todas as contratações de produtos e serviços."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 19,
+                            "nome": "Combate ao trabalho forçado ou compulsório",
+                            "itens": [
+                                {
+                                    "id": 79,
+                                    "descricao": "Análise da situação atual das suas operações, que pode ser feito por meio de uma avaliação interna ou de uma “auditoria social” para identificar possíveis desvios ou impactos e, caso existam, iniciar as ações de correção, e, sempre que possível, considerar os principais elos da cadeia de valor."
+                                },
+                                {
+                                    "id": 80,
+                                    "descricao": "Adoção de políticas e estratégias efetivas de direitos humanos e trabalhistas que assegurem conformidade com as leis aplicáveis e princípios fundamentais dos direitos humanos e trabalhistas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "nome": "Combate ao trabalho infantil",
+                            "itens": [
+                                {
+                                    "id": 81,
+                                    "descricao": "Mapeamento de suas operações e de sua cadeia de valor que podem apresentar riscos de ocorrência de trabalho infantil ou de trabalhadores jovens expostos a trabalho perigoso ou insalubre, nos termos da legislação nacional."
+                                },
+                                {
+                                    "id": 82,
+                                    "descricao": "Implantação de cláusulas específicas em seus contratos, com o objetivo de coibir o trabalho infantil."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "nome": "Diversidade, equidade e inclusão",
+                    "criterios": [
+                        {
+                            "id": 21,
+                            "nome": "Políticas e práticas de diversidade e equidade",
+                            "itens": [
+                                {
+                                    "id": 83,
+                                    "descricao": "Estabelecimento de uma Política de Diversidade e Inclusão que endosse o movimento na organização, bem como estabeleça os parâmetros corporativos que irão guiar as tomadas de decisão."
+                                },
+                                {
+                                    "id": 84,
+                                    "descricao": "Promoção de campanhas, peças e locuções que representem a diversidade dos públicos e que sejam inclusivas, com imagens que fujam dos padrões evitando termos ofensivos ou que reproduzem estereótipos."
+                                },
+                                {
+                                    "id": 85,
+                                    "descricao": "Treinamento de equipes de comunicação institucional e endomarketing acerca do tema diversidade, equidade e inclusão."
+                                },
+                                {
+                                    "id": 86,
+                                    "descricao": "Criação de um compromisso institucional que estabeleça diretrizes a serem seguidas por todos os líderes e trabalhadores, deixando claro que todos devem ser tratados de forma justa e igualitária, sem discriminação por motivos de a raça, etnia, gênero, identidade de gênero, orientação sexual, idade, classe social, deficiência, religiosidade, nacionalidade e crenças, dentre outras."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "nome": "Cultura e promoção de inclusão",
+                            "itens": [
+                                {
+                                    "id": 87,
+                                    "descricao": "Organização de atividades de sensibilização e capacitação com as lideranças e colaboradores da organização, colaborando para o engajamento e melhoria do clima organizacional."
+                                },
+                                {
+                                    "id": 88,
+                                    "descricao": "Implementação de um programa de diversidade com objetivos e metas bem estruturados e com ações para o curto, médio e longo prazos."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "nome": "Relações e práticas de trabalhos",
+                    "criterios": [
+                        {
+                            "id": 23,
+                            "nome": "Desenvolvimento profissional",
+                            "itens": [
+                                {
+                                    "id": 89,
+                                    "descricao": "Identificação de áreas e níveis da organização que têm mais necessidade de capacitação."
+                                },
+                                {
+                                    "id": 90,
+                                    "descricao": "Elaboração de um planejamento e destinar recursos para adotar uma rotina de capacitação e avaliação dos resultados."
+                                },
+                                {
+                                    "id": 91,
+                                    "descricao": "Oferecimento de incentivos, como bolsas parciais ou integrais de estudo, para fortalecer a educação continuada de seus trabalhadores."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "nome": "Saúde e segurança ocupacional",
+                            "itens": [
+                                {
+                                    "id": 92,
+                                    "descricao": "Utilização de mecanismos de sinalização de segurança (cores, sonoros, imagens etc.) para identificar, advertir e orientar, visando à prevenção de acidentes e incidentes."
+                                },
+                                {
+                                    "id": 93,
+                                    "descricao": "Utilização de equipamento de proteção individual (EPI) adequado."
+                                },
+                                {
+                                    "id": 94,
+                                    "descricao": "Utilização de ferramentas de avaliação de riscos, contendo critérios de probabilidade e severidade, aconforme a legislação vigente."
+                                },
+                                {
+                                    "id": 95,
+                                    "descricao": "Estabelecimento de indicadores para monitorar o desempenho das medidas preventivas, corretivas e de controle, de forma planejada e contínua."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 25,
+                            "nome": "Qualidade de vida",
+                            "itens": [
+                                {
+                                    "id": 96,
+                                    "descricao": "Realização de pesquisa de clima organizacional e promover ações e estabelecer indicadores para melhoria e gestão do clima."
+                                },
+                                {
+                                    "id": 97,
+                                    "descricao": "Realização de programas, ações ou campanhas ligados às necessidades de saúde dos trabalhadores da organização, como atenção primária a saúde, promoção de saúde (física, mental, nutricional, entre outras), que fomentem um estilo de vida mais saudável."
+                                },
+                                {
+                                    "id": 98,
+                                    "descricao": "Avaliação da possibilidade de instituir um canal de comunicação interno ou disponibilizar profissionais especializados em saúde mental para que os trabalhadores possam buscar acolhimento e apoio emocional. "
+                                }
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "nome": "Liberdade de associação",
+                            "itens": [
+                                {
+                                    "id": 99,
+                                    "descricao": "Eleição de pessoa responsável pelo estabelecimento de relação com o sindicato."
+                                },
+                                {
+                                    "id": 100,
+                                    "descricao": "Promoção do desenvolvimento de lideranças internas responsáveis pela relação e comunicação com os respectivos sindicatos."
+                                },
+                                {
+                                    "id": 101,
+                                    "descricao": "Consideração de assuntos É feitos para os sindicatos, a fim de avaliar possibilidade de negociação coletiva."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "nome": "Política de remuneração e benefícios",
+                            "itens": [
+                                {
+                                    "id": 102,
+                                    "descricao": "Adoção de práticas de remuneração e benefícios de modo equitativo para todos os profissionais."
+                                },
+                                {
+                                    "id": 103,
+                                    "descricao": "Estabelecimento de políticas relacionadas ao atingimento de metas de desempenho ambiental, social e de governança para a organização, para trabalhadores e diretores."
+                                },
+                                {
+                                    "id": 104,
+                                    "descricao": "Oferecimento de remuneração que esteja de acordo com a legislação vigente e, quando possível, acima do valor médio de mercado."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "nome": "Promoção de responsabilidade social na cadeia de valor",
+                    "criterios": [
+                        {
+                            "id": 28,
+                            "nome": "Relacionamento com consumidores e clientes",
+                            "itens": [
+                                {
+                                    "id": 105,
+                                    "descricao": "Manutenção de canais de comunicação disponíveis e bem divulgados, favorecendo o diálogo entre as partes com mecanismos que garantam um atendimento de qualidade aos clientes."
+                                },
+                                {
+                                    "id": 106,
+                                    "descricao": "Implantação de mecanismos de gestão confiáveis que preservem os dados dos consumidores, assegurando o direito à privacidade."
+                                },
+                                {
+                                    "id": 107,
+                                    "descricao": "Desenvolvimento de produtos e serviços mais sustentáveis, com informações completas sobre o uso, garantias, reparos, devoluções e descarte correto."
+                                },
+                                {
+                                    "id": 108,
+                                    "descricao": "Prática de marketing leal, com informações factuais e não tendenciosas."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 29,
+                            "nome": "Relacionamento com os fornecedores",
+                            "itens": [
+                                {
+                                    "id": 109,
+                                    "descricao": "Utilizar critérios ESG para seleção dos fornecedores, como as práticas trabalhistas de acordo com a legislação vigente."
+                                },
+                                {
+                                    "id": 110,
+                                    "descricao": "Identificar e incentivar o desenvolvimento técnico e gerencial de fornecedores locais para geração de valor às comunidades do entorno."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Governança",
+            "temas": [
+                {
+                    "id": 11,
+                    "nome": "Governança corporativa",
+                    "criterios": [
+                        {
+                            "id": 30,
+                            "nome": "Estrutura e composição da governança corporativa",
+                            "itens": [
+                                {
+                                    "id": 111,
+                                    "descricao": "Constituição legal da organização por meio de contrato social, estatuto social e acordo de acionistas ou acordo de sócios quotistas"
+                                },
+                                {
+                                    "id": 112,
+                                    "descricao": "Estabelecimento do estatuto ou contrato social, contemplando mecanismos para o tratamento de situações de conflito de interesses nas assembleias ou em reuniões de sócios. "
+                                },
+                                {
+                                    "id": 113,
+                                    "descricao": "Adoção de práticas recomendadas por normas internacionais, normas brasileiras ou diretrizes e orientações de instituições reconhecidas como o IBGC."
+                                },
+                                {
+                                    "id": 114,
+                                    "descricao": "Estabelecimento de políticas de seleção e remuneração para a diretoria e o conselho da empresa."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 31,
+                            "nome": "Propósito e estratégia em relação à sustentabilidade ",
+                            "itens": [
+                                {
+                                    "id": 115,
+                                    "descricao": "Integração formal do compromisso com o desenvolvimento sustentável em sua estratégia corporativa por meio de declarações de propósito, visão, missão e políticas corporativas."
+                                },
+                                {
+                                    "id": 116,
+                                    "descricao": "Implementação de um comitê de sustentabilidade ou ESG com uma equipe dedicada."
+                                },
+                                {
+                                    "id": 117,
+                                    "descricao": "Estabelecimento de objetivos, metas, indicadores e ações ESG como parte da estratégia principal da organização. "
+                                },
+                                {
+                                    "id": 118,
+                                    "descricao": "Incorporação na gestão dos princípios universais do Pacto Global da ONU, buscando o compromisso público para ser signatária dessa iniciativa. "
+                                },
+                                {
+                                    "id": 119,
+                                    "descricao": "Utilização dos Objetivos de Desenvolvimento Sustentável (ODS) e a Agenda 030 da ONU como referência para a identificação e integração de aspectos É feitos de sustentabilidade nos temas materiais da organização. "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "nome": "Conduta Empresarial",
+                    "criterios": [
+                        {
+                            "id": 32,
+                            "nome": "Compliance, programa de integridade e práticas anticorrupção",
+                            "itens": [
+                                {
+                                    "id": 120,
+                                    "descricao": "Implementação de um código de conduta, que demonstre a cultura de integridade da organização, transparência da organização e quais condutas são inaceitáveis."
+                                },
+                                {
+                                    "id": 121,
+                                    "descricao": "Criação de um comitê ou uma área de compliance na empresa com definição de um responsável que tenha independência e acesso a a todas as áreas da empresa"
+                                },
+                                {
+                                    "id": 122,
+                                    "descricao": "Implementação contínua e adequação as obrigações legais e de compliance resultantes das atividades da organização"
+                                },
+                                {
+                                    "id": 123,
+                                    "descricao": "Implementar um sistema de gestão de denúncias, com linha direta e sistemas de comunicação para trabalhadores e terceiros, o qual considera recepção, tratamento, conclusão e reporte, bem como a análise crítica das ações tomadas."
+                                },
+                                {
+                                    "id": 124,
+                                    "descricao": "Realização de due diligence na contratação e promoção de coloboradores, garantindo transparência e uma equipe alinhada com a cultura da empresa"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 33,
+                            "nome": "Práticas de combate à concorrência desleal (antitruste)",
+                            "itens": [
+                                {
+                                    "id": 125,
+                                    "descricao": "Estabelecimento de uma política anticoncorrencial contendo diretrizes e regras gerais de relacionamento de trabalhadores e prestadores de serviços da empresa com concorrentes, fornecedores e clientes."
+                                },
+                                {
+                                    "id": 126,
+                                    "descricao": "Estabelecimento de medidas para evitar o vazamento e o uso de informações privilegiadas ou confidencias para fins comerciais. "
+                                }
+                            ]
+                        },
+                        {
+                            "id": 34,
+                            "nome": "Engajamento das partes interessadas ",
+                            "itens": [
+                                {
+                                    "id": 127,
+                                    "descricao": "Identificação das partes interessadas envolvidas e determinar os aspectos em que há ou pode haver um relacionamento com benefícios mútuos. "
+                                },
+                                {
+                                    "id": 128,
+                                    "descricao": "Descrição de quais partes interessadas foram engajadas para determinar a materialidade e o gerenciamento dos temas materiais."
+                                },
+                                {
+                                    "id": 129,
+                                    "descricao": "Estabelecimento de métodos para monitoramento e fortalecimento do relacionamento com as partes interessadas, e consequente engajamento."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "nome": "Práticas de controle e gestão",
+                    "criterios": [
+                        {
+                            "id": 35,
+                            "nome": "Gestão de riscos do negócio",
+                            "itens": [
+                                {
+                                    "id": 130,
+                                    "descricao": "Implementanção de política de gestão de riscos de negócio"
+                                },
+                                {
+                                    "id": 131,
+                                    "descricao": "Identificação de riscos e oportunidades relacionados a ESG, analisando os critérios ambientais, sociais e de governança estabelecidos nesta Prática Recomendada e/ou outras referências de mercado."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 36,
+                            "nome": "Controles internos ",
+                            "itens": [
+                                {
+                                    "id": 132,
+                                    "descricao": "Estabelecimento e operacionalização de um sistema de controles internos eficaz, visando o monitoramento dos processos operacionais e financeiros, inclusive os relacionados à gestão de riscos e de conformidade com requisitos legais e outros requisitos aplicáveis."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 37,
+                            "nome": "Ambiente legal e regulatório",
+                            "itens": [
+                                {
+                                    "id": 133,
+                                    "descricao": "Inventário de regulamentações aplicáveis vigentes, classificados por órgão emissor, tema, áreas afetadas, responsáveis etc."
+                                },
+                                {
+                                    "id": 134,
+                                    "descricao": "Mecanismos de supervisão e monitoramento do cumprimento regulatório e legal para as regulamentações aplicáveis e vigentes, assim como atribuir responsabilidades e comprometimento."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 38,
+                            "nome": "Gestão da segurança da informação",
+                            "itens": [
+                                {
+                                    "id": 135,
+                                    "descricao": "Possuir política de segurança da informação explicita, documentada, e acessível a todos os trabalhadores da organização."
+                                },
+                                {
+                                    "id": 136,
+                                    "descricao": "Formalizar os papéis e responsabilidades de toda a administração e linhas em relação às práticas de gestão da segurança da informação."
+                                },
+                                {
+                                    "id": 137,
+                                    "descricao": "Utilizar sistemas operacionais e softwares com licenças devidamente legalizadas e comprovadamente oficiais."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 39,
+                            "nome": "Privacidade de dados pessoais",
+                            "itens": [
+                                {
+                                    "id": 138,
+                                    "descricao": "Implementação de políticas de segurança da informação dirigida aos seus trabalhadores, com ênfase especial aos dados pessoais dos seus clientes, trabalhadores, fornecedores, visitantes e demais titulares."
+                                },
+                                {
+                                    "id": 139,
+                                    "descricao": "Execução de programas de conscientização da importância da privacidade dos dados pessoais para os seus clientes, trabalhadores, fornecedores, visitantes e demais titulares."
+                                },
+                                {
+                                    "id": 140,
+                                    "descricao": "Posse de contratos com terceiros, cláusulas explícitas que assegurem no Service Level Agreement (SLA) o nível adequado de proteção de dados pessoais das informações compartilhadas."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "nome": "Transparência na gestão",
+                    "criterios": [
+                        {
+                            "id": 40,
+                            "nome": "Responsabilização (prestação de contas)",
+                            "itens": [
+                                {
+                                    "id": 141,
+                                    "descricao": "Garantia da responsabilização de recursos financeiros em conformidade com o planejamento orçamentário da organização."
+                                },
+                                {
+                                    "id": 142,
+                                    "descricao": "Prestação de contas da atuação dos agentes de governança de modo claro, conciso, compreensível e tempestivo."
+                                },
+                                {
+                                    "id": 143,
+                                    "descricao": "Criação de um plano de comunicação que evidencie a transparência das ações da organização para as partes interessadas e a sociedade em geral, como relatório de sustentabilidade, relatório de demonstração financeira, relatórios de auditoria interna e externa, premiações, certificações, entre outros meios."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 41,
+                            "nome": "Relatórios ESG, de sustentabilidade e/ou relato integrado",
+                            "itens": [
+                                {
+                                    "id": 144,
+                                    "descricao": "Descrever, conforme adequado, a abrangência da abordagem ESG (pilares) na organização."
+                                },
+                                {
+                                    "id": 145,
+                                    "descricao": "Descrição dos objetivos, metas e indicadores de desempenho definidos pela organização e o grau de atendimento e/ou cumprimento."
+                                },
+                                {
+                                    "id": 146,
+                                    "descricao": "Destaque da relevância das questões ESG para a estratégia de negócios e modelos de negócios."
+                                },
+                                {
+                                    "id": 147,
+                                    "descricao": "Reporte de temas ESG identificados como materiais para organização, assim como demonstração de quais os riscos negativos e positivos identificados e principais ações empreendidas para a sua minimização ou potencialização."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
