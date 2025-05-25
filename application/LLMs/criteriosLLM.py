@@ -8,7 +8,7 @@ from langchain.chains import LLMChain
 # 1. Modelo: baixa temperatura, pois a tarefa é determinística
 # ------------------------------------------------------------------
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="gpt-4.1-nano",
     temperature=0.6,
     api_key=os.getenv("OPENAI_API_KEY")
 )

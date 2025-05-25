@@ -8,7 +8,7 @@ import os
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Inicializa o modelo LLM
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.3, api_key=OPENAI_API_KEY)
+llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0.3, api_key=OPENAI_API_KEY)
 
 system_prompt = """
 Você é um(a) consultor(a) ESG sênior e professor(a) universitário(a) que
