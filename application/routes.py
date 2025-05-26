@@ -13,3 +13,7 @@ def avaliar_criterios_route():
 def avaliar_empresa_route():
     return avaliar_empresa_controller()
 
+@routes.route("/", methods=["GET", "HEAD"])
+def health_check():
+    return jsonify(status="ok"), 200
+
