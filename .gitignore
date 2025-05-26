@@ -1,5 +1,5 @@
-Codigo/LLM/venv
-Codigo/LLM/.env
-__pycache__/
-*.py[cod]          # .pyc, .pyo, .pyd
-*$py.class
+**/venv
+**/.env
+**/__pycache__/
+**/*.py[cod]          # .pyc, .pyo, .pyd
+**/*$py.class
