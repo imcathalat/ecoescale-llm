@@ -1,6 +1,7 @@
 from flask import request, jsonify
 from application.services.avaliacao_service import avaliar_empresa
 from application.services.avaliacao_service import avaliar_criterios
+import sys
 
 def avaliar_criterios_controller():
     try:
@@ -33,23 +34,21 @@ def avaliar_criterios_controller():
 def avaliar_empresa_controller():
     try:
         data = request.get_json(force=True) or {}
+        print("Raw JSON recebido:", data, file=sys.stderr)
 
-        # A outra API mandará exatamente:
-        # { "areas": [...], "empresa": {...} }
-        print(data)
-        questionario = data.get("questionario")
-        print(questionario)
-        respostas = {"areas": questionario.get("Areas", [])}
-        print(respostas)
-        empresa  = questionario.get("Empresa")
+        
+        payload = data.get("questionario", data)
 
-        if empresa is None or not isinstance(respostas["areas"], list):
+        areas   = payload.get("areas")
+        empresa = payload.get("empresa")
+
+        if empresa is None or not isinstance(areas , list):
             return jsonify({"erro": "JSON deve conter chaves 'empresa' e 'areas'."}), 400
 
         # opcional: remova dados sensíveis antes de mandar à LLM
         empresa.pop("senha", None)
 
-        resultado = avaliar_empresa(respostas, empresa)
+        resultado = avaliar_empresa(areas, empresa)
         status = 500 if "erro" in resultado else 200
         return jsonify(resultado), status
 

@@ -1,0 +1,366 @@
+{
+  "questionario": {
+    "id": 2,
+    "removido": false,
+    "areas": [
+      {
+        "id": 3,
+        "nome": "Ambiental",
+        "temas": [
+          {
+            "id": 5,
+            "nome": "Mudanças climáticas",
+            "criterios": [
+              {
+                "id": 8,
+                "nome": "Mitigação de emissões de gases de efeito estufa (GEE)",
+                "itens": [
+                  {
+                    "id": 29,
+                    "descricao": "Estabelecer um sistema para mensurar e reportar níveis de emissão de GEE.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 30,
+                    "descricao": "Realizar o inventário de suas emissões de gases do efeito estuda (GEE).",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 31,
+                    "descricao": "Elaborar plano de mitigação, contendo metas de redução, remoção e/ou compensação de emissões.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 32,
+                    "descricao": "Aderir a plataformas, campanhas e iniciativas para trazer padrão e transparência ao compromisso climático.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 33,
+                    "descricao": "Dar publicidade ao inventário de emissões de GEE, ao plano de mitigação, bem como aos compromissos alcançados.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Adaptação às mudanças climáticas",
+                "itens": [
+                  {
+                    "id": 34,
+                    "descricao": "Constituir um grupo de trabalho multidisciplinar para coordenação e elaboração do plano de adaptação.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 35,
+                    "descricao": "Levantar as informações disponíveis sobre os possíveis cenários de ameaça de mudanças climáticas para a organização, os riscos de impactos a serem enfrentados e as potenciais oportunidades a serem exploradas.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 36,
+                    "descricao": "Elaborar um plano de adaptação para a organização que reúna informações sobre medidas de adaptação identificadas, ordenadas de acordo com as prioridades de implementação.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 37,
+                    "descricao": "Realizar ações de engajamento de atores internos e externos à organização.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 38,
+                    "descricao": "Comunicar o plano de adaptação e seus resultados para o público interno e as partes interessadas.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "nome": "Biodiversidade e serviços ecossistêmicos",
+            "criterios": [
+              {
+                "id": 10,
+                "nome": "Conservação e uso sustentável da biodiversidade",
+                "itens": [
+                  {
+                    "id": 39,
+                    "descricao": "Identificar e monitorar possíveis impactos negativos à biodiversidade e aos serviços ecossistêmicos locais.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 40,
+                    "descricao": "Identificar e implantar ações que possam gerar impactos positivos na região visando a conservação da biodiversidade e manutenção/recuperação de serviços ecossistêmicos.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 41,
+                    "descricao": "Implantação de medidas e procedimentos padronizados para identificar, monitorar e mitigar os possíveis impactos negativos à biodiversidade e aos serviços ecossistêmicos locais.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 42,
+                    "descricao": "Promover a conservação da biodiversidade e dos serviços ecossistêmicos por meio do desenvolvimento ações de fomento de projetos de inovação tecnológica, de reflorestamento e/ou conservação de áreas protegidas.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nome": "Social",
+        "temas": [
+          {
+            "id": 7,
+            "nome": "Diálogo social e desenvolvimento territorial",
+            "criterios": [
+              {
+                "id": 11,
+                "nome": "Diálogo e engajamento das partes interessadas",
+                "itens": [
+                  {
+                    "id": 43,
+                    "descricao": "Elaboração de um plano de comunicação interno (trabalhadores) e externo (partes interessadas) para dar transparência às decisões e ações da organização.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 44,
+                    "descricao": "Elaboração e aplicação de processos formais para identificar as partes interessadas e verificar a legitimidade do grupo ou do indivíduo que fala em nome de uma parte interessada.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 45,
+                    "descricao": "Realizar pesquisas e campanhas para conhecer e monitorar sua relação com partes interessadas.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 46,
+                    "descricao": "Realização de engajamento social por meio de reuniões informais ou formais (conferências, workshops, audiências públicas, mesas redondas, comitês consultivos, procedimentos regulares de informação e consulta, entre outros).",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 47,
+                    "descricao": "Estímulo da relação dos trabalhadores da organização com a comunidade por meio de ações e campanhas.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "nome": "Impacto Social",
+                "itens": [
+                  {
+                    "id": 48,
+                    "descricao": "Envolvimento com a comunidade por meio da participação em fóruns promovidos por representantes locais como associação de moradores ou mesmo a promoção destes fóruns.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 49,
+                    "descricao": "Identificação de formadores de opinião, partes interessadas, agentes públicos, sociedade civil para que todas as demandas tenham representação.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 50,
+                    "descricao": "Criação de um plano de ação, com o objetivo de mitigação de impactos negativos e potencialização de impactos positivos na relação entre organização e comunidade.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 51,
+                    "descricao": "Priorização de aquisição de produtos ou prestação de serviços de fornecedores locais.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 52,
+                    "descricao": "Capacitação da população local para que possam ser ou vir a ser potenciais parceiros, fornecedores, consumidores ou trabalhadores.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "nome": "Direitos Humanos",
+            "criterios": [
+              {
+                "id": 13,
+                "nome": "Respeito aos direitos humanos",
+                "itens": [
+                  {
+                    "id": 53,
+                    "descricao": "Implantação de uma política de direitos humanos que assegure o comprometimento da Alta Direção da organização com os direitos humanos.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 54,
+                    "descricao": "Levantamento dos pontos críticos do negócio que possam trazer impactos positivos e negativos para a política de direitos humanos da organização.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 55,
+                    "descricao": "Implementação de práticas de monitoramento e prevenção a violações dos direitos humanos, inclusive na cadeia de fornecimento.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 56,
+                    "descricao": "Realização de due diligence como padrão em todas as contratações de produtos e serviços.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "nome": "Combate ao trabalho forçado ou compulsório",
+                "itens": [
+                  {
+                    "id": 57,
+                    "descricao": "Análise da situação atual das suas operações, que pode ser feito por meio de uma avaliação interna ou de uma “auditoria social” para identificar possíveis desvios ou impactos e, caso existam, iniciar as ações de correção, e, sempre que possível, considerar os principais elos da cadeia de valor.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 58,
+                    "descricao": "Adoção de políticas e estratégias efetivas de direitos humanos e trabalhistas que assegurem conformidade com as leis aplicáveis e princípios fundamentais dos direitos humanos e trabalhistas.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "nome": "Diversidade, equidade e inclusão",
+            "criterios": [
+              {
+                "id": 15,
+                "nome": "Políticas e práticas de diversidade e equidade",
+                "itens": [
+                  {
+                    "id": 59,
+                    "descricao": "Estabelecimento de uma Política de Diversidade e Inclusão que endosse o movimento na organização, bem como estabeleça os parâmetros corporativos que irão guiar as tomadas de decisão.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 60,
+                    "descricao": "Promoção de campanhas, peças e locuções que representem a diversidade dos públicos e que sejam inclusivas, com imagens que fujam dos padrões evitando termos ofensivos ou que reproduzem estereótipos.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 61,
+                    "descricao": "Treinamento de equipes de comunicação institucional e endomarketing acerca do tema diversidade, equidade e inclusão.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 62,
+                    "descricao": "Criação de um compromisso institucional que estabeleça diretrizes a serem seguidas por todos os líderes e trabalhadores, deixando claro que todos devem ser tratados de forma justa e igualitária, sem discriminação por motivos de raça, etnia, gênero, identidade de gênero, orientação sexual, idade, classe social, deficiência, religiosidade, nacionalidade e crenças, dentre outras.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nome": "Governança",
+        "temas": [
+          {
+            "id": 10,
+            "nome": "Governança corporativa",
+            "criterios": [
+              {
+                "id": 16,
+                "nome": "Propósito e estratégia em relação à sustentabilidade",
+                "itens": [
+                  {
+                    "id": 63,
+                    "descricao": "Integração formal do compromisso com o desenvolvimento sustentável em sua estratégia corporativa por meio de declarações de propósito, visão, missão e políticas corporativas.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 64,
+                    "descricao": "Implementação de um comitê de sustentabilidade ou ESG com uma equipe dedicada.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 65,
+                    "descricao": "Estabelecimento de objetivos, metas, indicadores e ações ESG como parte da estratégia principal da organização.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 66,
+                    "descricao": "Incorporação na gestão dos princípios universais do Pacto Global da ONU, buscando o compromisso público para ser signatária dessa iniciativa.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 67,
+                    "descricao": "Utilização dos Objetivos de Desenvolvimento Sustentável (ODS) e a Agenda 2030 da ONU como referência para a identificação e integração de aspectos de sustentabilidade nos temas materiais da organização.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "nome": "Transparência na gestão",
+            "criterios": [
+              {
+                "id": 17,
+                "nome": "Relatórios ESG, de sustentabilidade e/ou relato integrado",
+                "itens": [
+                  {
+                    "id": 68,
+                    "descricao": "Descrever, conforme adequado, a abrangência da abordagem ESG (pilares) na organização.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 69,
+                    "descricao": "Descrição dos objetivos, metas e indicadores de desempenho definidos pela organização e o grau de atendimento e/ou cumprimento.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 70,
+                    "descricao": "Destaque da relevância das questões ESG para a estratégia de negócios e modelos de negócios.",
+                    "resposta": "Não é feito"
+                  },
+                  {
+                    "id": 71,
+                    "descricao": "Reporte de temas ESG identificados como materiais para organização, assim como demonstração de quais os riscos negativos e positivos identificados e principais ações empreendidas para a sua minimização ou potencialização.",
+                    "resposta": "Não é feito"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "empresa": {
+      "id": 2,
+      "email": "contato@ecobelle.com.br",
+      "senha": "zDGypWhjmuadJqyfZUHDhKXwsz8faJ7Afo80vY3NuQM9U/TZ",
+      "emailConfirmado": true,
+      "role": 1,
+      "cnpj": "43521678000122",
+      "razaoSocial": "EcoBelle Artesanal LTDA.",
+      "numTelefone": "+55 31 99876-4321",
+      "enderecoSede": "Rua Mármore, 123, Santa Tereza, Belo Horizonte – MG, 31050-360, Brasil",
+      "fotoPerfil": "",
+      "fotoMimeType": "",
+      "fotoPerfilBase64": "",
+      "descricao": "Microindústria de cosméticos naturais fundada em 2021, focada em esmaltes, hidratantes e gloss labial à base de solventes aquosos, ceras vegetais certificadas e pigmentos minerais livres de metais pesados. Opera em laboratório licenciado de 28 m² no bairro Santa Tereza (BH), seguindo BPF simplificadas (RDC 48/2013) e política de embalagens retornáveis.",
+      "setorAtuacao": "Cosméticos naturais e sustentáveis",
+      "isRemovida": false,
+      "responsavel": {
+        "id": 2,
+        "nome": "Beatriz Alves Ferreira",
+        "telefone": "+55 31 99111-2222",
+        "cpf": "067.532.201-43"
+      }
+    }
+  }
+}
